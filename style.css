@@ -6,6 +6,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background-color: black;
 }
 @font-face {
     font-family: logo;
@@ -103,10 +104,30 @@ nav{
 }
 #navend button{
     padding: 10px 30px;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     border: 1px solid cyan;
     border-radius: 50px;
+
+    background: linear-gradient(
+
+        90deg,
+
+        rgba(10, 15, 20, 0.95) 0%,
+
+        rgba(20, 35, 40, 0.95) 45%,
+
+        rgba(66, 245, 230, 0.35) 100%
+
+    );
+
+    box-shadow:
+
+        0 0 10px rgba(66, 245, 230, 0.35),
+
+        0 0 25px rgba(66, 245, 230, 0.15);
+
+    backdrop-filter: blur(8px);
 }
 
 header{
@@ -187,9 +208,202 @@ color: cyan;
     border: 1px solid cyan;
     border-radius: 50%;
     color: cyan;
+
+    background: linear-gradient(
+
+        90deg,
+
+        rgba(10, 15, 20, 0.95) 0%,
+
+        rgba(20, 35, 40, 0.95) 45%,
+
+        rgba(66, 245, 230, 0.35) 100%
+
+    );
+
+    box-shadow:
+
+        0 0 10px rgba(66, 245, 230, 0.35),
+
+        0 0 25px rgba(66, 245, 230, 0.15);
+
+    backdrop-filter: blur(8px);
 }
 .content h4{
     color: white;
     font-family: logo;
     font-size: 1em;
+}
+
+#endpoint{
+    width: 100%;
+    height: 10%;
+    /* background-color: #42F5E6; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+#end1{
+    height: 100%;
+    width: 20%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#end1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    color: white;
+    /* background-color: transparent; */
+    gap: 20px;
+
+    background: linear-gradient(
+
+        90deg,
+
+        rgba(10, 15, 20, 0.95) 0%,
+
+        rgba(20, 35, 40, 0.95) 45%,
+
+        rgba(66, 245, 230, 0.35) 100%
+
+    );
+
+    box-shadow:
+
+        0 0 10px rgba(66, 245, 230, 0.35),
+
+        0 0 25px rgba(66, 245, 230, 0.15);
+
+    backdrop-filter: blur(8px);
+}
+
+#end2{
+    gap: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+#end2 i{
+color: white;
+font-size: 2em;
+/* background: red; */
+padding: 5px;
+border: 1px solid cyan;
+border-radius: 50%;
+}
+
+#end2 h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#compo{
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 20px;
+    height: 19%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 10px;
+    background: rgba(10, 20, 30, 0.35);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    box-shadow:
+
+    inset 0 1px 1px rgba(255,255,255,0.08),
+
+    0 8px 32px rgba(0,0,0,0.45);
+    
+}
+
+#sta{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sta img{
+width: 350px;
+height: 250px;
+position: absolute;
+}
+#mi{
+    width: 60%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ma{
+    border: 1px solid rgb(49, 49, 49);
+   width: 100%;
+   height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ text-align: center;
+ border-top: none;
+ border-bottom: none;
+}
+.ma:nth-child(1){
+    border-left: none;
+}
+.ma:nth-child(4){
+    border-right: none;
+}
+.ma h3{
+    font-family:logo;
+    font-size: 2em;
+    color: #42F5E6;
+    font-weight: 100;
+}
+.ma p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+#en{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#en img{
+width: 300px;
+height: 250px;
+position: absolute;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }

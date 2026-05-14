@@ -411,7 +411,10 @@ section{
     background-color: black;
     color: white;
     margin-top: 30px;
-
+    background: url(imgs/sec\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #nav2{
@@ -466,4 +469,163 @@ font-size: 3em;
     border-radius: 50%;
 color: cyan;
 }
+
+#card{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card1{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 20px;
+}   
+.inside{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 60%;
+    /* background-color: #42F5E6; */
+}
+.inside img{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 20px 20px 0px 0px;
+    
+}
+#inside1{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(22, 20, 20);
+    border-radius: 0px 0px 20px 20px;
+  
+}
+#jja{
+width: 100%;
+height: 50%;
+/* background-color: red; */
+text-align: left;
+padding: 20px;
+}
+#jjb{
+width: 100%;
+height: 50%;
+/* background-color: blue; */
+border-radius: 0px 0px 20px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#and{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    gap: 40px;
+    font-size: 2em;
+
+}
+#ios{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+}
+#ios i{
+font-size: 2em;
+border: 1px solid cyan;
+border-radius: 50%;
+padding: 5px;
+}
+
+
+#handle{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: logo;
+    letter-spacing: 10px;
+}
+#handle h1{
+color: white;
+}
+#hi{
+    color: cyan;
+}
+
+#handle1{
+width: 100%;
+height: 35%;
+/* background-color: blue; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+padding: 20px;
+
+
+}
+.minicard{
+  border-radius: 20px;
+    width: 100%;
+    height: 100%;
+border: 1px solid cyan;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.section1{
+    width: 100%;
+    height: 100%;
+    background: url(imgs/sec\ bg.png);
+}
+
+.m1{
+    width: 50%;
+    height: 100%;
+    /* background-color: #42F5E6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+font-size: 3em;
+}
+
+.m2{
+    gap: 15px;
+    width: 60%;
+    height: 100%;
+    /* background-color:yellow; */
+display: flex;
+align-items:left ;
+justify-content: center;
+flex-direction: column;
+color: white;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+
+font-weight: 100;
+}
+.m2 h4{
+color: cyan;
+}
+
+
+
 

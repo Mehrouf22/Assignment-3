@@ -7,3 +7,99 @@ html,body{
     width: 100%;
     height: 100%;
 }
+
+main{
+    width: 100%;
+    height: 100%;
+    background: url(imgs/bg-trail1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;   
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 50%;
+    /* background-color: aqua; */
+}
+#logo img{
+    width: 400px;
+ 
+}
+
+#navmid{
+    width: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navmid h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  
+}
+#Home{
+    padding: 5px;
+    transition: ease-out 1.5s;
+}
+#Home:hover{
+    border-bottom: 1px solid cyan;
+}
+
+
+#About{
+    padding: 5px;
+    transition: ease-out 1.5s;
+}
+#About:hover{
+    border-bottom: 1px solid cyan;
+}
+
+#Project{
+    padding: 5px;
+    transition: ease-out 1.5s;
+}
+#Project:hover{
+    border-bottom: 1px solid cyan;
+}
+#Services{
+    padding: 5px;
+    transition: ease-out 1.5s;
+}
+#Services:hover{
+    border-bottom: 1px solid cyan;
+}
+
+#Contact{
+    padding: 5px;
+    transition: ease-out 1.5s;
+}
+#Contact:hover{
+    border-bottom: 1px solid cyan;
+}
+
+#navend{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navend button{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid cyan;
+    border-radius: 50px;
+}
